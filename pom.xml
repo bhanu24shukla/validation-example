@@ -61,6 +61,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>springboot-validation-example-image</finalName>
     </build>
 
 </project>
