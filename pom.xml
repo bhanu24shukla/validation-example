@@ -10,8 +10,9 @@
     </parent>
     <groupId>com.javatechie</groupId>
     <artifactId>validation-example</artifactId>
-    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <name>validation-example</name>
+    <description>validation-example</description>
     <properties>
         <java.version>17</java.version>
     </properties>
