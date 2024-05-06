@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Windows CI with Maven
 
 on:
   push:
@@ -17,7 +17,7 @@ on:
 jobs:
   build_tests:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
@@ -31,7 +31,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
   publish-job:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: build_tests
     steps:
       - uses: actions/checkout@v3
